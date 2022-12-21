@@ -18,8 +18,8 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 public class iPhoneTestBS {
-	public static String username = "sonaldwivedi_1vPJe3";
-	public static String accesskey = "ibzEFbG8EkYxpxYyFcEE";
+	public static String username = "<BrowserStack username>";
+	public static String accesskey = "<BrowserStack passworrd>";
 	public static final String URL = "https://" + username + ":" + accesskey + "@hub-cloud.browserstack.com/wd/hub";
 	WebDriver driver;
 	String url = "https://www.bstackdemo.com/";
