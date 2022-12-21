@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="3" parallel="tests" name="Failed suite [BrowserStack Test automtion regression suite]" guice-stage="DEVELOPMENT" verbose="3">
+  <test thread-count="3" parallel="tests" name="BrowserStack Test - Galaxy(failed)" verbose="3">
+    <parameter name="os_version" value="12.0"/>
+    <parameter name="browser" value="Chrome"/>
+    <parameter name="browser_version" value="105.0"/>
+    <parameter name="device_Name" value="Samsung Galaxy S22 Ultra"/>
+    <parameter name="plat_form" value="Android"/>
+    <classes>
+      <class name="com.qa.testcases.AndroidTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="checkTitle"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.qa.testcases.AndroidTest -->
+    </classes>
+  </test> <!-- BrowserStack Test - Galaxy(failed) -->
+</suite> <!-- Failed suite [BrowserStack Test automtion regression suite] -->
